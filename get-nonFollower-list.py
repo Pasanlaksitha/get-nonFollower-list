@@ -11,7 +11,7 @@ session.login()
 print("logged")
 
 get_nonfollowers = session.pick_nonfollowers(username="pasan.creation", live_match=True, store_locally=False)
-# now, `pasan.creation_nonfollowers` variable which is a list- holds the `Nonfollowers` data of "pasan.creation" at requested time
+
 
 print(get_nonfollowers)
 non = get_nonfollowers
